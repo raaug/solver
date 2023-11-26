@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solver</title>
+    <link href="{{ url_for('static', filename='styles/style.css')}}" rel="stylesheet" />
+</head>
+<body>
+  <h1>Solver</h1>  
+  <form action="/solver">
+    <input type="text" name="guess" id="guess" placeholder="Enter a 5 letter guess: " />
+    <button type="submit">Submit</button>
+  </form>
+  <div id="GameBoard">
+    
+  </div>
+  <div id="KeyBoard"></div>
+</body>
+</html>
